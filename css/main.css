@@ -1,0 +1,49 @@
+.main-container {
+	width: 95vw;
+}
+
+@media (min-width: 712px) {
+	.main-container {
+		width: 75vw;
+		-webkit-justify-content: center;
+		justify-content: center;
+	}
+}
+
+@media (min-width: 1012px) {
+	.main-container {
+		width: 60vw;
+	}
+}
+
+.card-container {
+	display: -webkit-flex;
+	-webkit-flex-flow: row wrap;
+	-webkit-justify-content: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+@media (min-width: 612px) {
+	.card-container {
+		-webkit-flex-flow: row nowrap;
+		-webkit-justify-content: flex-start;
+		flex-flow: row nowrap;
+		justify-content: flex-start;
+	}
+}
+
+.option {
+	margin: 0 0 1rem 0;
+}
+
+@media (min-width: 612px) {
+	.option {
+		margin: 0 0 1rem 2rem;
+	}
+}
+
+.next-button {
+	margin-bottom: 20px;
+}
